@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/GothamPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/GothamPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Gotham', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.42em;
+    background-color: #EAEAEA;
+    margin: 0;
+    padding: 0;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    height: 15px;
+    background-color: #7BA24D;
+    margin-bottom: 20px;
+}
+
+
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.contacts__link-vk,
+.contacts__link-mail,
+.contacts__link-phone {
+    display: inline-block;
+}
+
+.profile-photo {
+    display: block;
+}
+
+.cv-photo, .info {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.info {
+    padding-left: 50px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.info__name {
+    color: #7BA24D;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 5px;
+    line-height: 1.5em;
+}
+
+h3 {
+    font-size: 24px;
+    color: #221f1f;
+    text-transform: uppercase;
+}
+
+.contacts__list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.contacts__item {
+    display: inline-block;
+}
+
+.contacts__image, .contacts__text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contacts__text {
+    margin-right: 50px;
+}
+
+.contacts__text.text-phone {
+    margin-right: 0;
+}
+
+.image-vk {
+    background: url("../images/vk-logo-grey.png") no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.contacts__link-vk:hover .image-vk {
+    background: url("../images/vk-logo.png") no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.contacts__link-vk:hover .text-vk {
+    font-weight: bold;
+}
+
+.image-mail {
+    background: url("../images/mail-logo.png") no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.contacts__link-mail:hover .image-mail {
+    background: url("../images/mail-logo-green.png") no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.contacts__link-mail:hover .text-mail {
+    font-weight: bold;
+}
+
+.image-phone {
+    background: url("../images/phone-logo.png") no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.contacts__link-phone:hover .image-phone {
+    background: url("../images/phone-logo-blue.png") no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.contacts__link-phone:hover .text-phone {
+    font-weight: bold;
+}
+
+.contacts__link-vk,
+.contacts__link-mail,
+.contacts__link-phone {
+    text-decoration: none;
+    color: black;
+}
+
+.education {
+    width: 50%;
+    float: left;
+
+}
+
+.skills {
+    width: 50%;
+    float: left;
+
+}
+
+.education__list, .skills__list {
+    padding-left: 0;
+
+}
+
+.education__place {
+    display: inline;
+}
+
+.education__item, .skills__item {
+    list-style: none;
+}
+
+.education__item:before, .skills__item:before {
+    color: #7BA24D;
+    content: "•";
+    padding-right: 10px;
+}
+
+@media (max-width: 480px) {
+
+    .page__info {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .info {
+        padding-left: 0;
+    }
+
+    .page {
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-content {
+        padding: 0 10px;
+
+    }
+
+    .contacts__item {
+        display: inherit;
+    }
+
+    .education {
+        float: none;
+        width: auto;
+    }
+
+    .skills {
+        padding-left: 0;
+        float: none;
+        clear: both;
+        width: auto;
+    }
+
+    .why-front-end {
+        width: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .page__info {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .info {
+
+        padding-left: 20px;
+        line-height: 2em;
+    }
+
+    .page {
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-content {
+        margin: 20px;
+    }
+
+    .contacts__item {
+        display: inherit;
+    }
+
+    .education {
+
+        float: left;
+        width: auto;
+    }
+
+    .skills {
+        padding-left: 10px;
+        float: left;
+
+        width: auto;
+    }
+
+    .why-front-end {
+        width: auto;
+    }
+
+}
