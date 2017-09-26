@@ -129,7 +129,7 @@ h3 {
 }
 
 .contacts__link-vk:hover .text-vk {
-    font-weight: bold;
+    
 }
 
 .image-mail {
@@ -145,7 +145,7 @@ h3 {
 }
 
 .contacts__link-mail:hover .text-mail {
-    font-weight: bold;
+
 }
 
 .image-phone {
@@ -161,7 +161,7 @@ h3 {
 }
 
 .contacts__link-phone:hover .text-phone {
-    font-weight: bold;
+
 }
 
 .contacts__link-vk,
