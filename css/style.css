@@ -23,7 +23,7 @@ body {
     font-family: 'Gotham', Arial, Helvetica, sans-serif;
     font-weight: 300;
     line-height: 1.42em;
-    background-color: #EAEAEA;
+    background-color: #F4F5F6;
     margin: 0;
     padding: 0;
 
@@ -53,6 +53,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 
 .contacts__link-vk,
 .contacts__link-mail,
@@ -129,7 +130,7 @@ h3 {
 }
 
 .contacts__link-vk:hover .text-vk {
-    
+
 }
 
 .image-mail {
