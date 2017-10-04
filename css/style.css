@@ -45,15 +45,12 @@ body {
     margin-bottom: 20px;
 }
 
-
-
 .container {
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
-
 
 .contacts__link-vk,
 .contacts__link-mail,
@@ -109,6 +106,12 @@ h3 {
     vertical-align: middle;
 }
 
+.contacts__image {
+    background: url("../images/contacts-sprites.png") no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
 .contacts__text {
     margin-right: 50px;
 }
@@ -118,50 +121,32 @@ h3 {
 }
 
 .image-vk {
-    background: url("../images/vk-logo-grey.png") no-repeat;
-    width: 60px;
-    height: 60px;
+    background-position: -400px -20px;
+
 }
 
 .contacts__link-vk:hover .image-vk {
-    background: url("../images/vk-logo.png") no-repeat;
-    width: 60px;
-    height: 60px;
-}
-
-.contacts__link-vk:hover .text-vk {
+    background-position: -305px -20px;
 
 }
 
 .image-mail {
-    background: url("../images/mail-logo.png") no-repeat;
-    width: 60px;
-    height: 60px;
+    background-position: -20px -20px;
+
 }
 
 .contacts__link-mail:hover .image-mail {
-    background: url("../images/mail-logo-green.png") no-repeat;
-    width: 60px;
-    height: 60px;
-}
-
-.contacts__link-mail:hover .text-mail {
+    background-position: -115px -20px;
 
 }
 
 .image-phone {
-    background: url("../images/phone-logo.png") no-repeat;
-    width: 60px;
-    height: 60px;
+    background-position: -210px -20px;
+
 }
 
 .contacts__link-phone:hover .image-phone {
-    background: url("../images/phone-logo-blue.png") no-repeat;
-    width: 60px;
-    height: 60px;
-}
-
-.contacts__link-phone:hover .text-phone {
+    background-position: -495px -20px;
 
 }
 
